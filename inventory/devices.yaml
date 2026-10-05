@@ -1,0 +1,16 @@
+# 设备清单（示例）
+# 请替换为你的 eNSP / GNS3 模拟器设备信息，密码等敏感信息不要提交到 Git
+devices:
+  - name: R1
+    host: 192.168.56.101      # 模拟器设备管理地址
+    device_type: cisco_ios_telnet   # 锐捷可用 ruijie_os 或按实际驱动
+    username: admin
+    password: admin123
+    enable_password: admin123
+
+  - name: R2
+    host: 192.168.56.102
+    device_type: cisco_ios_telnet
+    username: admin
+    password: admin123
+    enable_password: admin123

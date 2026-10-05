@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 敏感信息（设备真实密码、密钥）
+*.secret
+.env
+secrets.yaml
+
+# 备份的设备配置（可能含敏感信息，不提交）
+configs/*.cfg
+configs/*.backup
+
+# 巡检报告（临时产物）
+reports/*.xlsx
+
+# 系统文件
+.DS_Store
+Thumbs.db
